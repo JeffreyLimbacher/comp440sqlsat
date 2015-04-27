@@ -1,2 +1,0 @@
-﻿CREATE USER [s15guest17] FOR LOGIN [s15guest17];
-
