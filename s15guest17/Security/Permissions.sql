@@ -1,0 +1,11 @@
+﻿GRANT CONNECT TO [s15guest17];
+
+
+GO
+GRANT VIEW DEFINITION TO [s15guest17];
+
+
+GO
+GRANT VIEW DEFINITION
+    ON SCHEMA::[dbo] TO [s15guest17];
+

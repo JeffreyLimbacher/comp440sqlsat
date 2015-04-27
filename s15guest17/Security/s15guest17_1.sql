@@ -1,0 +1,3 @@
+﻿CREATE LOGIN [s15guest17]
+    WITH PASSWORD = N'iumefera|pq+l5pljh&i~dn9msFT7_&#$!~<cljZzeq{tqra', SID = 0xAD204295DA64004CB93F7F940D6458D8, DEFAULT_DATABASE = [s15guest17], DEFAULT_LANGUAGE = [us_english], CHECK_EXPIRATION = ON;
+
