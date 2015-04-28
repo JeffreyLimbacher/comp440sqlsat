@@ -7,4 +7,18 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="TrackId" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="d7e21f1b-c711-4f0f-9b77-2943b529536a" ChangeDateTime="04/27/2015 20:58:39">
+    <Property Name="ElementName" Value="[dbo].[Topic].[TrackID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Topic]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TrackId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="443143a2-beeb-4927-9fb9-d97922910a8c" ChangeDateTime="04/27/2015 23:42:47">
+    <Property Name="ElementName" Value="[dbo].[Class].[TrackId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Class]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TopicId" />
+  </Operation>
 </Operations>
