@@ -137,6 +137,8 @@
     <Build Include="dbo\Stored Procedures\AssociateTrackWithClass.sql" />
     <Build Include="dbo\Stored Procedures\ClassesInTrack.sql" />
     <Build Include="dbo\Stored Procedures\AddSession.sql" />
+    <Build Include="dbo\Tables\Country.sql" />
+    <Build Include="dbo\Tables\State.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="s15guest17.refactorlog" />
