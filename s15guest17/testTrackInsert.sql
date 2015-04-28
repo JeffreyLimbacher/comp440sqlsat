@@ -20,5 +20,7 @@ SELECT * FROM Class JOIN Track ON Track.TrackId = Class.TrackId
 END
 
 
+DROP s15guest17
+
 
 
