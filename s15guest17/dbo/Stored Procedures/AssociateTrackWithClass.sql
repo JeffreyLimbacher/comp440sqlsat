@@ -10,7 +10,7 @@ BEGIN
 		BEGIN
 			exec AddTrack @description=@trackdescription
 		END
-		SELECT @TheTrackId = TrackId FROM TRACK WHERE Description LIKE @trackdescription
+		SELECT @TheTrackId = TrackId FROM Track WHERE Description LIKE @trackdescription
 		UPDATE Class
 		SET TrackId = @TheTrackId
 		WHERE ClassId=@classid
