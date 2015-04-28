@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Event] (
-    [EventId]    INT       NOT NULL,
+    [EventId]    INT       NOT NULL IDENTITY,
     [StartDate]       DATE NOT NULL,
     [LocationId] INT       NOT NULL,
     [EndDate] DATE NOT NULL, 
