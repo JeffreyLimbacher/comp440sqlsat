@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Session] (
-    [StartTIme] DATETIME NULL,
+    [StartTime] DATETIME NOT NULL,
     [SessionId] INT       IDENTITY (1, 1) NOT NULL,
     [ClassId]   INT       NOT NULL,
     [RoomId]    INT       NOT NULL,
