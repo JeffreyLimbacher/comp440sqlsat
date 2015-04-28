@@ -1,5 +1,6 @@
 ﻿CREATE PROCEDURE [dbo].[AddTrack]
-	@description nvarchar(50)
+	@description nvarchar(50),
+	@trackid int OUTPUT
 AS
 BEGIN
 -- SET NOCOUNT ON added to prevent extra result sets from
@@ -9,7 +10,7 @@ BEGIN
 	BEGIN
 		BEGIN TRY
 			INSERT INTO Track (Description) VALUES (@description)	
-			PRINT Scope_Identity()
+			SET @trackid = Scope_Identity()
 		END TRY
 		BEGIN CATCH
 			DECLARE @ErrorMessage NVARCHAR(4000);
