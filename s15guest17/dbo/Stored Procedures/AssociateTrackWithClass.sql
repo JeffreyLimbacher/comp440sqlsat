@@ -8,13 +8,9 @@ BEGIN
 		DECLARE @TheTrackId int
 		IF NOT EXISTS(SELECT TrackId FROM Track WHERE Description LIKE @trackdescription)
 		BEGIN
-		PRINT @TheTrackID
-			exec AddTrack @description=@trackdescription, @trackid=@TheTrackId OUTPUT
+			exec AddTrack @description=@trackdescription
 		END
-		ELSE
-		BEGIN
-			SELECT @TheTrackId = TrackId FROM TRACK WHERE Description LIKE @trackdescription
-		END
+		SELECT @TheTrackId = TrackId FROM TRACK WHERE Description LIKE @trackdescription
 		UPDATE Class
 		SET TrackId = @TheTrackId
 		WHERE ClassId=@classid

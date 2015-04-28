@@ -14,7 +14,7 @@ INSERT INTO Class(Topic, PersonId, LevelId) VALUES ('the test', @personid, @leve
 
 set @classid = SCOPE_IDENTITY()
 
-exec AssociateTrackWithClass @classid=@classid, @trackdescription='fukboilife'
+exec AssociateTrackWithClass @classid=@classid, @trackdescription='lol'
 
 SELECT * FROM Class JOIN Track ON Track.TrackId = Class.TrackId
 END
