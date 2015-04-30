@@ -129,7 +129,7 @@
     <Build Include="dbo\Tables\RafflePeople.sql" />
     <Build Include="dbo\Tables\Room.sql" />
     <Build Include="dbo\Tables\Session.sql" />
-    <Build Include="dbo\Tables\Students.sql" />
+    <Build Include="dbo\Tables\PersonSession.sql" />
     <Build Include="dbo\Tables\Track.sql" />
     <Build Include="dbo\Tables\Vendor.sql" />
     <Build Include="dbo\Tables\VendorSession.sql" />
@@ -138,6 +138,7 @@
     <Build Include="dbo\Stored Procedures\ClassesInTrack.sql" />
     <Build Include="dbo\Stored Procedures\AddSession.sql" />
     <Build Include="dbo\Stored Procedures\GetRoomsPerTrack.sql" />
+    <Build Include="dbo\Tables\Role.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="s15guest17.refactorlog" />
